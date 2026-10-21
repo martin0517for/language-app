@@ -1,0 +1,78 @@
+/* ============================================
+   配色與字體：方案 C「和紙 × 朱印」（SPEC 第 7 章）
+   ============================================ */
+
+:root {
+  /* 底色與文字 */
+  --bg: #F5EFE3;          /* 和紙 Washi */
+  --surface: #FFFCF6;     /* 卡片 */
+  --ink: #2A2830;         /* 墨 Sumi */
+  --muted: #625C68;       /* 次要文字 */
+  --line: #DDD3C2;        /* 分隔線 */
+
+  /* 語言代表色 */
+  --en: #2F4A7A;          /* 藍染 Aizome */
+  --en-text: #FFFFFF;
+  --ja: #B83B24;          /* 朱印 Vermilion */
+  --ja-text: #FFFFFF;
+
+  /* 強調 */
+  --accent: #B83B24;
+  --accent-soft: #F4D8D0;
+  --accent-soft-text: #8F2A17;
+
+  /* 評分按鈕 */
+  --again-bg: #F4D8D0;  --again-text: #8F2A17;   /* 沒印象 */
+  --hard-bg: #F3E6C8;   --hard-text: #6D5200;    /* 有點卡 */
+  --good-bg: #DCE5EF;   --good-text: #2F4A7A;    /* 記住了 */
+
+  /* 字體 */
+  --font-display: 'Space Grotesk', 'Noto Sans TC', sans-serif;
+  --font-body: Inter, 'Noto Sans TC', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-ja: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+
+  /* 尺寸 */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --nav-height: 64px;
+  --shadow: 0 6px 20px rgba(42, 40, 48, 0.08);
+}
+
+/* 深色模式（暫定，Phase 3 加入手動切換後再微調） */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1E1C22;
+    --surface: #28262D;
+    --ink: #EFE9DD;
+    --muted: #A9A2AE;
+    --line: #3A3740;
+    --en: #3A5A92;
+    --ja: #B83B24;
+    --accent: #E0705A;
+    --accent-soft: #4A2A24;
+    --accent-soft-text: #F4C2B5;
+    --again-bg: #4A2A24;  --again-text: #F4C2B5;
+    --hard-bg: #463B22;   --hard-text: #F0D89A;
+    --good-bg: #26344A;   --good-text: #BFD2EC;
+    --shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1E1C22;
+  --surface: #28262D;
+  --ink: #EFE9DD;
+  --muted: #A9A2AE;
+  --line: #3A3740;
+  --en: #3A5A92;
+  --ja: #B83B24;
+  --accent: #E0705A;
+  --accent-soft: #4A2A24;
+  --accent-soft-text: #F4C2B5;
+  --again-bg: #4A2A24;  --again-text: #F4C2B5;
+  --hard-bg: #463B22;   --hard-text: #F0D89A;
+  --good-bg: #26344A;   --good-text: #BFD2EC;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
