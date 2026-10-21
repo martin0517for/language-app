@@ -1,6 +1,6 @@
 # 英日語學習 App — 開發規格與紀錄（SPEC）
 
-> 狀態：**規劃完成**，準備進入製作階段（Phase 0）
+> 狀態：**製作中**（Phase 0 完成，下一步 Phase 1）
 > 最後更新：2026-10-21
 
 ---
@@ -420,7 +420,10 @@ language-app/
 4. 確認無誤、更新 SPEC 後，進入下一個 Phase
 
 **製作進度**
-- [ ] Phase 0 準備
+- [x] Phase 0 準備（2026-10-21）
+  - Repo：`github.com/martin0517for/language-app`
+  - 網址：`https://martin0517for.github.io/language-app/`
+  - GitHub Pages：main 分支 / root；Claude 推送測試成功
 - [ ] Phase 1 骨架
 - [ ] Phase 2 學習核心
 - [ ] Phase 3 設定與保護
@@ -444,3 +447,4 @@ language-app/
 | 2026-10-18 | 新增 D13 與 3.4 內容更新節奏（每月約 150 個／語言）；第一批英文改為 150 個；日文順序改為平假名（含濁音、拗音）→ 片假名 |
 | 2026-10-21 | 完成第 6 步：新增 D14 與第 7 章「視覺風格」，採用方案 C「和紙 × 朱印」；原第 7、8 章改為第 8、9 章 |
 | 2026-10-21 | 完成第 7 步：製作階段分為 Phase 0–6，討論階段全部完成 |
+| 2026-10-21 | 完成 Phase 0：建立 repo、開啟 GitHub Pages、Claude 推送測試成功 |
