@@ -1,5 +1,8 @@
 *, *::before, *::after { box-sizing: border-box; }
 
+/* 防止點兩下放大（iPhone）：保留捲動與點擊，取消雙擊縮放 */
+html, body, * { touch-action: manipulation; }
+
 html, body {
   margin: 0;
   background: var(--bg);
