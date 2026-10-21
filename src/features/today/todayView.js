@@ -22,7 +22,7 @@ const small = (icon) => icon.replace('<svg', '<svg width="16" height="16"');
 /** 任務卡左下角的說明文字 */
 function footText(s) {
   if (s.status === 'continue') return `已完成 ${s.done} / ${s.total}，可從中斷處繼續`;
-  if (s.status === 'done') return s.allLearned ? '新內容已學完，該更新囉' : '今天的進度完成了';
+  if (s.status === 'done') return s.allLearned ? '新內容已學完，該更新囉' : '';
   if (s.status === 'idle') return s.allLearned ? '新內容已學完，該更新囉' : '今天沒有任務';
   const total = s.review + s.fresh;
   if (s.lang === 'ja' && s.lesson) return `第 ${s.lesson.no} 課 · ${s.lesson.label} · 共 ${total} 張`;
@@ -34,7 +34,7 @@ function taskCard(meta, s) {
   const action =
     s.status === 'todo' ? `<button class="btn ${meta.lang}" type="button" data-start="${meta.lang}">開始</button>` :
     s.status === 'continue' ? `<button class="btn ${meta.lang}" type="button" data-start="${meta.lang}">繼續</button>` :
-    done ? `<span class="done-mark ${meta.lang}">${small(icons.check)}完成</span>` : '';
+    done ? `<button class="btn ghost" type="button" data-browse="${meta.lang}">再看一次</button>` : '';
   const num = (n) => `<span class="stat-value${n === 0 ? ' dim' : ''}">${n}</span>`;
 
   return `
@@ -46,7 +46,9 @@ function taskCard(meta, s) {
       </div>
       <div class="ticket-perf"></div>
       <div class="ticket-foot">
-        <span class="muted">${footText(s)}</span>
+        ${done && !s.allLearned
+          ? `<span class="done-mark ${meta.lang}">${small(icons.check)}今日完成</span>`
+          : `<span class="muted">${footText(s)}</span>`}
         ${action}
       </div>
     </section>`;
@@ -74,6 +76,9 @@ export async function renderToday(container) {
   if (currentRoute() !== 'today' || !box.isConnected) return; // 載入期間已切換頁面
 
   box.innerHTML = LANGS.map((m, i) => taskCard(m, summaries[i])).join('');
+  box.querySelectorAll('[data-browse]').forEach((btn) => {
+    btn.addEventListener('click', () => navigate(`study/${btn.dataset.browse}/browse`));
+  });
   box.querySelectorAll('[data-start]').forEach((btn) => {
     btn.addEventListener('click', async () => {
       const lang = btn.dataset.start;

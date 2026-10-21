@@ -145,3 +145,22 @@ export function rateCurrent(lang, rating) {
   saveSession(lang, session);
   return false;
 }
+
+/** 今天學過（評分過）的卡片，依內容順序；用於「再看一次」 */
+export async function getTodayCards(lang) {
+  const today = todayKey();
+  const { items } = await loadContent(lang);
+  const progress = getProgress();
+  return items.filter((it) => progress[it.id]?.last === today);
+}
+
+/** 今天某語言的學習數量：{ new, review } */
+export function getTodayStats(lang) {
+  return getStats().days[todayKey()]?.[lang] || { new: 0, review: 0 };
+}
+
+/** 日文假名同一行的所有假名（背面顯示用） */
+export async function rowKana(item) {
+  const { items } = await loadContent('ja');
+  return items.filter((it) => it.type === 'kana' && it.row === item.row).map((it) => it.kana);
+}
