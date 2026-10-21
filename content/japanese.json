@@ -1,0 +1,1466 @@
+{
+  "version": "2026.10.21",
+  "language": "ja",
+  "items": [
+    {
+      "id": "ja_kana_h_a",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "a",
+      "kana": "あ",
+      "romaji": "a",
+      "lesson": 1
+    },
+    {
+      "id": "ja_kana_h_i",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "a",
+      "kana": "い",
+      "romaji": "i",
+      "lesson": 1
+    },
+    {
+      "id": "ja_kana_h_u",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "a",
+      "kana": "う",
+      "romaji": "u",
+      "lesson": 1
+    },
+    {
+      "id": "ja_kana_h_e",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "a",
+      "kana": "え",
+      "romaji": "e",
+      "lesson": 1
+    },
+    {
+      "id": "ja_kana_h_o",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "a",
+      "kana": "お",
+      "romaji": "o",
+      "lesson": 1
+    },
+    {
+      "id": "ja_ph_basic_001",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "すみません",
+      "kana": "すみません",
+      "romaji": "sumimasen",
+      "zh": "不好意思；請問",
+      "lesson": 1
+    },
+    {
+      "id": "ja_ph_basic_002",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "ありがとうございます",
+      "kana": "ありがとうございます",
+      "romaji": "arigatou gozaimasu",
+      "zh": "謝謝",
+      "lesson": 1
+    },
+    {
+      "id": "ja_kana_h_ka",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ka",
+      "kana": "か",
+      "romaji": "ka",
+      "lesson": 2
+    },
+    {
+      "id": "ja_kana_h_ki",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ka",
+      "kana": "き",
+      "romaji": "ki",
+      "lesson": 2
+    },
+    {
+      "id": "ja_kana_h_ku",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ka",
+      "kana": "く",
+      "romaji": "ku",
+      "lesson": 2
+    },
+    {
+      "id": "ja_kana_h_ke",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ka",
+      "kana": "け",
+      "romaji": "ke",
+      "lesson": 2
+    },
+    {
+      "id": "ja_kana_h_ko",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ka",
+      "kana": "こ",
+      "romaji": "ko",
+      "lesson": 2
+    },
+    {
+      "id": "ja_ph_basic_003",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "はい",
+      "kana": "はい",
+      "romaji": "hai",
+      "zh": "是；好的",
+      "lesson": 2
+    },
+    {
+      "id": "ja_ph_basic_004",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "いいえ",
+      "kana": "いいえ",
+      "romaji": "iie",
+      "zh": "不是；不用了",
+      "lesson": 2
+    },
+    {
+      "id": "ja_kana_h_sa",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "sa",
+      "kana": "さ",
+      "romaji": "sa",
+      "lesson": 3
+    },
+    {
+      "id": "ja_kana_h_shi",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "sa",
+      "kana": "し",
+      "romaji": "shi",
+      "lesson": 3
+    },
+    {
+      "id": "ja_kana_h_su",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "sa",
+      "kana": "す",
+      "romaji": "su",
+      "lesson": 3
+    },
+    {
+      "id": "ja_kana_h_se",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "sa",
+      "kana": "せ",
+      "romaji": "se",
+      "lesson": 3
+    },
+    {
+      "id": "ja_kana_h_so",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "sa",
+      "kana": "そ",
+      "romaji": "so",
+      "lesson": 3
+    },
+    {
+      "id": "ja_ph_basic_005",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "おはようございます",
+      "kana": "おはようございます",
+      "romaji": "ohayou gozaimasu",
+      "zh": "早安",
+      "lesson": 3
+    },
+    {
+      "id": "ja_ph_basic_006",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "こんにちは",
+      "kana": "こんにちは",
+      "romaji": "konnichiwa",
+      "zh": "你好（白天）",
+      "lesson": 3
+    },
+    {
+      "id": "ja_kana_h_ta",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ta",
+      "kana": "た",
+      "romaji": "ta",
+      "lesson": 4
+    },
+    {
+      "id": "ja_kana_h_chi",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ta",
+      "kana": "ち",
+      "romaji": "chi",
+      "lesson": 4
+    },
+    {
+      "id": "ja_kana_h_tsu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ta",
+      "kana": "つ",
+      "romaji": "tsu",
+      "lesson": 4
+    },
+    {
+      "id": "ja_kana_h_te",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ta",
+      "kana": "て",
+      "romaji": "te",
+      "lesson": 4
+    },
+    {
+      "id": "ja_kana_h_to",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ta",
+      "kana": "と",
+      "romaji": "to",
+      "lesson": 4
+    },
+    {
+      "id": "ja_ph_basic_007",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "こんばんは",
+      "kana": "こんばんは",
+      "romaji": "konbanwa",
+      "zh": "晚上好",
+      "lesson": 4
+    },
+    {
+      "id": "ja_ph_basic_008",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "おやすみなさい",
+      "kana": "おやすみなさい",
+      "romaji": "oyasuminasai",
+      "zh": "晚安（睡前）",
+      "lesson": 4
+    },
+    {
+      "id": "ja_kana_h_na",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "na",
+      "kana": "な",
+      "romaji": "na",
+      "lesson": 5
+    },
+    {
+      "id": "ja_kana_h_ni",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "na",
+      "kana": "に",
+      "romaji": "ni",
+      "lesson": 5
+    },
+    {
+      "id": "ja_kana_h_nu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "na",
+      "kana": "ぬ",
+      "romaji": "nu",
+      "lesson": 5
+    },
+    {
+      "id": "ja_kana_h_ne",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "na",
+      "kana": "ね",
+      "romaji": "ne",
+      "lesson": 5
+    },
+    {
+      "id": "ja_kana_h_no",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "na",
+      "kana": "の",
+      "romaji": "no",
+      "lesson": 5
+    },
+    {
+      "id": "ja_ph_basic_009",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "さようなら",
+      "kana": "さようなら",
+      "romaji": "sayounara",
+      "zh": "再見",
+      "lesson": 5
+    },
+    {
+      "id": "ja_ph_basic_010",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "ごめんなさい",
+      "kana": "ごめんなさい",
+      "romaji": "gomennasai",
+      "zh": "對不起",
+      "lesson": 5
+    },
+    {
+      "id": "ja_kana_h_ha",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ha",
+      "kana": "は",
+      "romaji": "ha",
+      "lesson": 6
+    },
+    {
+      "id": "ja_kana_h_hi",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ha",
+      "kana": "ひ",
+      "romaji": "hi",
+      "lesson": 6
+    },
+    {
+      "id": "ja_kana_h_fu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ha",
+      "kana": "ふ",
+      "romaji": "fu",
+      "lesson": 6
+    },
+    {
+      "id": "ja_kana_h_he",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ha",
+      "kana": "へ",
+      "romaji": "he",
+      "lesson": 6
+    },
+    {
+      "id": "ja_kana_h_ho",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ha",
+      "kana": "ほ",
+      "romaji": "ho",
+      "lesson": 6
+    },
+    {
+      "id": "ja_ph_basic_011",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "大丈夫です",
+      "kana": "だいじょうぶです",
+      "romaji": "daijoubu desu",
+      "zh": "沒問題；沒關係",
+      "lesson": 6
+    },
+    {
+      "id": "ja_ph_basic_012",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "お願いします",
+      "kana": "おねがいします",
+      "romaji": "onegai shimasu",
+      "zh": "麻煩你了；拜託",
+      "lesson": 6
+    },
+    {
+      "id": "ja_kana_h_ma",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ma",
+      "kana": "ま",
+      "romaji": "ma",
+      "lesson": 7
+    },
+    {
+      "id": "ja_kana_h_mi",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ma",
+      "kana": "み",
+      "romaji": "mi",
+      "lesson": 7
+    },
+    {
+      "id": "ja_kana_h_mu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ma",
+      "kana": "む",
+      "romaji": "mu",
+      "lesson": 7
+    },
+    {
+      "id": "ja_kana_h_me",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ma",
+      "kana": "め",
+      "romaji": "me",
+      "lesson": 7
+    },
+    {
+      "id": "ja_kana_h_mo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ma",
+      "kana": "も",
+      "romaji": "mo",
+      "lesson": 7
+    },
+    {
+      "id": "ja_ph_basic_013",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "これください",
+      "kana": "これください",
+      "romaji": "kore kudasai",
+      "zh": "請給我這個",
+      "lesson": 7
+    },
+    {
+      "id": "ja_ph_basic_014",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "いくらですか",
+      "kana": "いくらですか",
+      "romaji": "ikura desu ka",
+      "zh": "多少錢？",
+      "lesson": 7
+    },
+    {
+      "id": "ja_kana_h_ya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ya",
+      "kana": "や",
+      "romaji": "ya",
+      "lesson": 8
+    },
+    {
+      "id": "ja_kana_h_yu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ya",
+      "kana": "ゆ",
+      "romaji": "yu",
+      "lesson": 8
+    },
+    {
+      "id": "ja_kana_h_yo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ya",
+      "kana": "よ",
+      "romaji": "yo",
+      "lesson": 8
+    },
+    {
+      "id": "ja_ph_basic_015",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "トイレはどこですか",
+      "kana": "といれはどこですか",
+      "romaji": "toire wa doko desu ka",
+      "zh": "廁所在哪裡？",
+      "lesson": 8
+    },
+    {
+      "id": "ja_ph_basic_016",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "わかりません",
+      "kana": "わかりません",
+      "romaji": "wakarimasen",
+      "zh": "我不懂",
+      "lesson": 8
+    },
+    {
+      "id": "ja_kana_h_ra",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ra",
+      "kana": "ら",
+      "romaji": "ra",
+      "lesson": 9
+    },
+    {
+      "id": "ja_kana_h_ri",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ra",
+      "kana": "り",
+      "romaji": "ri",
+      "lesson": 9
+    },
+    {
+      "id": "ja_kana_h_ru",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ra",
+      "kana": "る",
+      "romaji": "ru",
+      "lesson": 9
+    },
+    {
+      "id": "ja_kana_h_re",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ra",
+      "kana": "れ",
+      "romaji": "re",
+      "lesson": 9
+    },
+    {
+      "id": "ja_kana_h_ro",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "ra",
+      "kana": "ろ",
+      "romaji": "ro",
+      "lesson": 9
+    },
+    {
+      "id": "ja_ph_basic_017",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "わかりました",
+      "kana": "わかりました",
+      "romaji": "wakarimashita",
+      "zh": "我知道了",
+      "lesson": 9
+    },
+    {
+      "id": "ja_ph_basic_018",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "もう一度お願いします",
+      "kana": "もういちどおねがいします",
+      "romaji": "mou ichido onegai shimasu",
+      "zh": "請再說一次",
+      "lesson": 9
+    },
+    {
+      "id": "ja_kana_h_wa",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "wa",
+      "kana": "わ",
+      "romaji": "wa",
+      "lesson": 10
+    },
+    {
+      "id": "ja_kana_h_wo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "wa",
+      "kana": "を",
+      "romaji": "wo",
+      "lesson": 10
+    },
+    {
+      "id": "ja_kana_h_n",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "清音",
+      "row": "n",
+      "kana": "ん",
+      "romaji": "n",
+      "lesson": 10
+    },
+    {
+      "id": "ja_ph_basic_019",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "ゆっくりお願いします",
+      "kana": "ゆっくりおねがいします",
+      "romaji": "yukkuri onegai shimasu",
+      "zh": "請說慢一點",
+      "lesson": 10
+    },
+    {
+      "id": "ja_ph_basic_020",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "英語は話せますか",
+      "kana": "えいごははなせますか",
+      "romaji": "eigo wa hanasemasu ka",
+      "zh": "你會說英文嗎？",
+      "lesson": 10
+    },
+    {
+      "id": "ja_kana_h_ga",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ga",
+      "kana": "が",
+      "romaji": "ga",
+      "lesson": 11
+    },
+    {
+      "id": "ja_kana_h_gi",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ga",
+      "kana": "ぎ",
+      "romaji": "gi",
+      "lesson": 11
+    },
+    {
+      "id": "ja_kana_h_gu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ga",
+      "kana": "ぐ",
+      "romaji": "gu",
+      "lesson": 11
+    },
+    {
+      "id": "ja_kana_h_ge",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ga",
+      "kana": "げ",
+      "romaji": "ge",
+      "lesson": 11
+    },
+    {
+      "id": "ja_kana_h_go",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ga",
+      "kana": "ご",
+      "romaji": "go",
+      "lesson": 11
+    },
+    {
+      "id": "ja_ph_basic_021",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "台湾から来ました",
+      "kana": "たいわんからきました",
+      "romaji": "taiwan kara kimashita",
+      "zh": "我從台灣來",
+      "lesson": 11
+    },
+    {
+      "id": "ja_ph_basic_022",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "日本語は少しだけです",
+      "kana": "にほんごはすこしだけです",
+      "romaji": "nihongo wa sukoshi dake desu",
+      "zh": "日文只會一點點",
+      "lesson": 11
+    },
+    {
+      "id": "ja_kana_h_za",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "za",
+      "kana": "ざ",
+      "romaji": "za",
+      "lesson": 12
+    },
+    {
+      "id": "ja_kana_h_ji",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "za",
+      "kana": "じ",
+      "romaji": "ji",
+      "lesson": 12
+    },
+    {
+      "id": "ja_kana_h_zu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "za",
+      "kana": "ず",
+      "romaji": "zu",
+      "lesson": 12
+    },
+    {
+      "id": "ja_kana_h_ze",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "za",
+      "kana": "ぜ",
+      "romaji": "ze",
+      "lesson": 12
+    },
+    {
+      "id": "ja_kana_h_zo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "za",
+      "kana": "ぞ",
+      "romaji": "zo",
+      "lesson": 12
+    },
+    {
+      "id": "ja_ph_basic_023",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "これは何ですか",
+      "kana": "これはなんですか",
+      "romaji": "kore wa nan desu ka",
+      "zh": "這是什麼？",
+      "lesson": 12
+    },
+    {
+      "id": "ja_ph_basic_024",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "写真を撮ってもいいですか",
+      "kana": "しゃしんをとってもいいですか",
+      "romaji": "shashin o tottemo ii desu ka",
+      "zh": "可以拍照嗎？",
+      "lesson": 12
+    },
+    {
+      "id": "ja_kana_h_da",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "da",
+      "kana": "だ",
+      "romaji": "da",
+      "lesson": 13
+    },
+    {
+      "id": "ja_kana_h_di",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "da",
+      "kana": "ぢ",
+      "romaji": "ji",
+      "lesson": 13
+    },
+    {
+      "id": "ja_kana_h_du",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "da",
+      "kana": "づ",
+      "romaji": "zu",
+      "lesson": 13
+    },
+    {
+      "id": "ja_kana_h_de",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "da",
+      "kana": "で",
+      "romaji": "de",
+      "lesson": 13
+    },
+    {
+      "id": "ja_kana_h_do",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "da",
+      "kana": "ど",
+      "romaji": "do",
+      "lesson": 13
+    },
+    {
+      "id": "ja_ph_basic_025",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "いただきます",
+      "kana": "いただきます",
+      "romaji": "itadakimasu",
+      "zh": "開動了（用餐前）",
+      "lesson": 13
+    },
+    {
+      "id": "ja_ph_basic_026",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "ごちそうさまでした",
+      "kana": "ごちそうさまでした",
+      "romaji": "gochisousama deshita",
+      "zh": "謝謝招待（用餐後）",
+      "lesson": 13
+    },
+    {
+      "id": "ja_kana_h_ba",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ba",
+      "kana": "ば",
+      "romaji": "ba",
+      "lesson": 14
+    },
+    {
+      "id": "ja_kana_h_bi",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ba",
+      "kana": "び",
+      "romaji": "bi",
+      "lesson": 14
+    },
+    {
+      "id": "ja_kana_h_bu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ba",
+      "kana": "ぶ",
+      "romaji": "bu",
+      "lesson": 14
+    },
+    {
+      "id": "ja_kana_h_be",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ba",
+      "kana": "べ",
+      "romaji": "be",
+      "lesson": 14
+    },
+    {
+      "id": "ja_kana_h_bo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "濁音",
+      "row": "ba",
+      "kana": "ぼ",
+      "romaji": "bo",
+      "lesson": 14
+    },
+    {
+      "id": "ja_ph_basic_027",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "おいしいです",
+      "kana": "おいしいです",
+      "romaji": "oishii desu",
+      "zh": "很好吃",
+      "lesson": 14
+    },
+    {
+      "id": "ja_ph_basic_028",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "カードは使えますか",
+      "kana": "かーどはつかえますか",
+      "romaji": "kaado wa tsukaemasu ka",
+      "zh": "可以刷卡嗎？",
+      "lesson": 14
+    },
+    {
+      "id": "ja_kana_h_pa",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "半濁音",
+      "row": "pa",
+      "kana": "ぱ",
+      "romaji": "pa",
+      "lesson": 15
+    },
+    {
+      "id": "ja_kana_h_pi",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "半濁音",
+      "row": "pa",
+      "kana": "ぴ",
+      "romaji": "pi",
+      "lesson": 15
+    },
+    {
+      "id": "ja_kana_h_pu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "半濁音",
+      "row": "pa",
+      "kana": "ぷ",
+      "romaji": "pu",
+      "lesson": 15
+    },
+    {
+      "id": "ja_kana_h_pe",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "半濁音",
+      "row": "pa",
+      "kana": "ぺ",
+      "romaji": "pe",
+      "lesson": 15
+    },
+    {
+      "id": "ja_kana_h_po",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "半濁音",
+      "row": "pa",
+      "kana": "ぽ",
+      "romaji": "po",
+      "lesson": 15
+    },
+    {
+      "id": "ja_ph_basic_029",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "レシートをください",
+      "kana": "れしーとをください",
+      "romaji": "reshiito o kudasai",
+      "zh": "請給我收據",
+      "lesson": 15
+    },
+    {
+      "id": "ja_ph_basic_030",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "袋はいりません",
+      "kana": "ふくろはいりません",
+      "romaji": "fukuro wa irimasen",
+      "zh": "不需要袋子",
+      "lesson": 15
+    },
+    {
+      "id": "ja_kana_h_kya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "kya",
+      "kana": "きゃ",
+      "romaji": "kya",
+      "lesson": 16
+    },
+    {
+      "id": "ja_kana_h_kyu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "kya",
+      "kana": "きゅ",
+      "romaji": "kyu",
+      "lesson": 16
+    },
+    {
+      "id": "ja_kana_h_kyo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "kya",
+      "kana": "きょ",
+      "romaji": "kyo",
+      "lesson": 16
+    },
+    {
+      "id": "ja_kana_h_gya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "gya",
+      "kana": "ぎゃ",
+      "romaji": "gya",
+      "lesson": 16
+    },
+    {
+      "id": "ja_kana_h_gyu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "gya",
+      "kana": "ぎゅ",
+      "romaji": "gyu",
+      "lesson": 16
+    },
+    {
+      "id": "ja_kana_h_gyo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "gya",
+      "kana": "ぎょ",
+      "romaji": "gyo",
+      "lesson": 16
+    },
+    {
+      "id": "ja_ph_basic_031",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "これを見せてください",
+      "kana": "これをみせてください",
+      "romaji": "kore o misete kudasai",
+      "zh": "請給我看這個",
+      "lesson": 16
+    },
+    {
+      "id": "ja_ph_basic_032",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "駅はどこですか",
+      "kana": "えきはどこですか",
+      "romaji": "eki wa doko desu ka",
+      "zh": "車站在哪裡？",
+      "lesson": 16
+    },
+    {
+      "id": "ja_kana_h_sha",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "sha",
+      "kana": "しゃ",
+      "romaji": "sha",
+      "lesson": 17
+    },
+    {
+      "id": "ja_kana_h_shu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "sha",
+      "kana": "しゅ",
+      "romaji": "shu",
+      "lesson": 17
+    },
+    {
+      "id": "ja_kana_h_sho",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "sha",
+      "kana": "しょ",
+      "romaji": "sho",
+      "lesson": 17
+    },
+    {
+      "id": "ja_kana_h_ja",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "ja",
+      "kana": "じゃ",
+      "romaji": "ja",
+      "lesson": 17
+    },
+    {
+      "id": "ja_kana_h_ju",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "ja",
+      "kana": "じゅ",
+      "romaji": "ju",
+      "lesson": 17
+    },
+    {
+      "id": "ja_kana_h_jo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "ja",
+      "kana": "じょ",
+      "romaji": "jo",
+      "lesson": 17
+    },
+    {
+      "id": "ja_ph_basic_033",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "ここはどこですか",
+      "kana": "ここはどこですか",
+      "romaji": "koko wa doko desu ka",
+      "zh": "這裡是哪裡？",
+      "lesson": 17
+    },
+    {
+      "id": "ja_ph_basic_034",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "近いですか",
+      "kana": "ちかいですか",
+      "romaji": "chikai desu ka",
+      "zh": "近嗎？",
+      "lesson": 17
+    },
+    {
+      "id": "ja_kana_h_cha",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "cha",
+      "kana": "ちゃ",
+      "romaji": "cha",
+      "lesson": 18
+    },
+    {
+      "id": "ja_kana_h_chu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "cha",
+      "kana": "ちゅ",
+      "romaji": "chu",
+      "lesson": 18
+    },
+    {
+      "id": "ja_kana_h_cho",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "cha",
+      "kana": "ちょ",
+      "romaji": "cho",
+      "lesson": 18
+    },
+    {
+      "id": "ja_kana_h_nya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "nya",
+      "kana": "にゃ",
+      "romaji": "nya",
+      "lesson": 18
+    },
+    {
+      "id": "ja_kana_h_nyu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "nya",
+      "kana": "にゅ",
+      "romaji": "nyu",
+      "lesson": 18
+    },
+    {
+      "id": "ja_kana_h_nyo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "nya",
+      "kana": "にょ",
+      "romaji": "nyo",
+      "lesson": 18
+    },
+    {
+      "id": "ja_ph_basic_035",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "助けてください",
+      "kana": "たすけてください",
+      "romaji": "tasukete kudasai",
+      "zh": "請幫幫我",
+      "lesson": 18
+    },
+    {
+      "id": "ja_ph_basic_036",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "大丈夫ですか",
+      "kana": "だいじょうぶですか",
+      "romaji": "daijoubu desu ka",
+      "zh": "你還好嗎？",
+      "lesson": 18
+    },
+    {
+      "id": "ja_kana_h_hya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "hya",
+      "kana": "ひゃ",
+      "romaji": "hya",
+      "lesson": 19
+    },
+    {
+      "id": "ja_kana_h_hyu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "hya",
+      "kana": "ひゅ",
+      "romaji": "hyu",
+      "lesson": 19
+    },
+    {
+      "id": "ja_kana_h_hyo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "hya",
+      "kana": "ひょ",
+      "romaji": "hyo",
+      "lesson": 19
+    },
+    {
+      "id": "ja_kana_h_bya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "bya",
+      "kana": "びゃ",
+      "romaji": "bya",
+      "lesson": 19
+    },
+    {
+      "id": "ja_kana_h_byu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "bya",
+      "kana": "びゅ",
+      "romaji": "byu",
+      "lesson": 19
+    },
+    {
+      "id": "ja_kana_h_byo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "bya",
+      "kana": "びょ",
+      "romaji": "byo",
+      "lesson": 19
+    },
+    {
+      "id": "ja_ph_basic_037",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "ちょっと待ってください",
+      "kana": "ちょっとまってください",
+      "romaji": "chotto matte kudasai",
+      "zh": "請稍等一下",
+      "lesson": 19
+    },
+    {
+      "id": "ja_ph_basic_038",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "はじめまして",
+      "kana": "はじめまして",
+      "romaji": "hajimemashite",
+      "zh": "初次見面",
+      "lesson": 19
+    },
+    {
+      "id": "ja_kana_h_pya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "pya",
+      "kana": "ぴゃ",
+      "romaji": "pya",
+      "lesson": 20
+    },
+    {
+      "id": "ja_kana_h_pyu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "pya",
+      "kana": "ぴゅ",
+      "romaji": "pyu",
+      "lesson": 20
+    },
+    {
+      "id": "ja_kana_h_pyo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "pya",
+      "kana": "ぴょ",
+      "romaji": "pyo",
+      "lesson": 20
+    },
+    {
+      "id": "ja_kana_h_mya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "mya",
+      "kana": "みゃ",
+      "romaji": "mya",
+      "lesson": 20
+    },
+    {
+      "id": "ja_kana_h_myu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "mya",
+      "kana": "みゅ",
+      "romaji": "myu",
+      "lesson": 20
+    },
+    {
+      "id": "ja_kana_h_myo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "mya",
+      "kana": "みょ",
+      "romaji": "myo",
+      "lesson": 20
+    },
+    {
+      "id": "ja_ph_basic_039",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "よろしくお願いします",
+      "kana": "よろしくおねがいします",
+      "romaji": "yoroshiku onegai shimasu",
+      "zh": "請多指教",
+      "lesson": 20
+    },
+    {
+      "id": "ja_ph_basic_040",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "いいですね",
+      "kana": "いいですね",
+      "romaji": "ii desu ne",
+      "zh": "不錯耶；好啊",
+      "lesson": 20
+    },
+    {
+      "id": "ja_kana_h_rya",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "rya",
+      "kana": "りゃ",
+      "romaji": "rya",
+      "lesson": 21
+    },
+    {
+      "id": "ja_kana_h_ryu",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "rya",
+      "kana": "りゅ",
+      "romaji": "ryu",
+      "lesson": 21
+    },
+    {
+      "id": "ja_kana_h_ryo",
+      "type": "kana",
+      "script": "hiragana",
+      "group": "拗音",
+      "row": "rya",
+      "kana": "りょ",
+      "romaji": "ryo",
+      "lesson": 21
+    },
+    {
+      "id": "ja_ph_basic_041",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "これでお願いします",
+      "kana": "これでおねがいします",
+      "romaji": "kore de onegai shimasu",
+      "zh": "那就這個，麻煩你",
+      "lesson": 21
+    },
+    {
+      "id": "ja_ph_basic_042",
+      "type": "phrase",
+      "scene": "basic",
+      "ja": "失礼します",
+      "kana": "しつれいします",
+      "romaji": "shitsurei shimasu",
+      "zh": "打擾了；失陪了",
+      "lesson": 21
+    }
+  ]
+}
