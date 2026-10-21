@@ -1,6 +1,6 @@
 # 英日語學習 App — 開發規格與紀錄（SPEC）
 
-> 狀態：**製作中**（Phase 1 已推送，待 iPhone 試用確認）
+> 狀態：**製作中**（Phase 1 完成，下一步 Phase 2 學習核心）
 > 最後更新：2026-10-21
 
 ---
@@ -424,7 +424,7 @@ language-app/
   - Repo：`github.com/martin0517for/language-app`
   - 網址：`https://martin0517for.github.io/language-app/`
   - GitHub Pages：main 分支 / root；Claude 推送測試成功
-- [ ] Phase 1 骨架（2026-10-21 已推送，待試用）
+- [x] Phase 1 骨架（2026-10-21，iPhone 試用確認）
   - App 名稱「語言學習」，圖示：朱紅底＋和紙色「語」字印章
 - [ ] Phase 2 學習核心
 - [ ] Phase 3 設定與保護
@@ -450,3 +450,4 @@ language-app/
 | 2026-10-21 | 完成第 7 步：製作階段分為 Phase 0–6，討論階段全部完成 |
 | 2026-10-21 | 完成 Phase 0：建立 repo、開啟 GitHub Pages、Claude 推送測試成功 |
 | 2026-10-21 | Phase 1 推送：配色、5 個分頁、App 圖示（語）、PWA 設定；Service Worker 留待 Phase 3 |
+| 2026-10-21 | Phase 1 完成：iPhone 確認全螢幕、圖示名稱、分頁切換、配色皆正常 |
