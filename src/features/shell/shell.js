@@ -23,7 +23,10 @@ export function createShell(root) {
     </div>`;
 
   const tabs = root.querySelectorAll('.tab');
+  // 全螢幕的頁面（學習畫面）隱藏底部導覽
+  const FULLSCREEN = ['study'];
   onRouteChange((name) => {
+    root.querySelector('.app').classList.toggle('fullscreen', FULLSCREEN.includes(name));
     tabs.forEach((el) => {
       if (el.dataset.tab === name) el.setAttribute('aria-current', 'page');
       else el.removeAttribute('aria-current');

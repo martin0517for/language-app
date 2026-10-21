@@ -10,13 +10,27 @@ export function addRoute(name, render) {
   if (!fallback) fallback = name;
 }
 
+function parts() {
+  return location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
+}
+
 export function currentRoute() {
-  const name = location.hash.replace(/^#\/?/, '').split('/')[0];
+  const name = parts()[0];
   return routes.has(name) ? name : fallback;
 }
 
-export function navigate(name) {
-  if (location.hash !== `#/${name}`) location.hash = `#/${name}`;
+/** 網址中路由名稱之後的部分：#/study/en → ['en'] */
+export function routeParams() {
+  return routes.has(parts()[0]) ? parts().slice(1) : [];
+}
+
+export function navigate(path) {
+  if (location.hash !== `#/${path}`) location.hash = `#/${path}`;
+}
+
+/** 換頁但不留下返回紀錄（離開學習畫面時用） */
+export function replace(path) {
+  location.replace(`#/${path}`);
 }
 
 export function onRouteChange(fn) {
@@ -27,9 +41,9 @@ export function startRouter(container) {
   const run = () => {
     const name = currentRoute();
     container.innerHTML = '';
-    routes.get(name)(container);
-    window.scrollTo(0, 0);
     listeners.forEach((fn) => fn(name));
+    routes.get(name)(container, routeParams());
+    window.scrollTo(0, 0);
   };
   window.addEventListener('hashchange', run);
   run();

@@ -102,6 +102,21 @@ eq(progress().ja_kana_h_e.level, 2, 'え 重複時按記住了 → 等級 2');
 const st = JSON.parse(localStorage.getItem('langapp_stats')).days[T].ja;
 eq(st, { new: 7, review: 0 }, '統計：重複的那次不重複計算');
 
+// ---------- 4b. 重複時又按沒印象 → 明天，今天算完成 ----------
+section('4b. 重複出現時又按「沒印象」→ 明天出現，今天算完成');
+{
+  const keep = new Map(store);
+  store.delete('langapp_progress'); store.delete('langapp_stats'); store.delete('langapp_session');
+  const l = await studyAll('ja', (card) => (card.item.kana === 'あ' ? 'again' : 'good'));
+  const rep = l.filter((x) => x.kind === 'repeat');
+  eq(rep.length, 1, 'あ 只重複一次');
+  eq(rep[0].labels.again, '明天', '重複那張的「沒印象」小字顯示明天');
+  eq(progress().ja_kana_h_a.due, '2026-10-23', 'あ 改為明天到期');
+  const sm = await svc.getTodaySummary('ja');
+  eq([sm.status, sm.review], ['done', 0], '今日頁顯示完成，沒有剩下的複習');
+  store.clear(); keep.forEach((v, k) => store.set(k, v));
+}
+
 // ---------- 5. 第二天 ----------
 section('5. 第 2 天：英文複習 6 + 新內容 6；日文進入第 2 課');
 setNow(2026, 10, 23);
@@ -135,6 +150,8 @@ const counts = {};
 ja.forEach((it) => { counts[it.lesson] = (counts[it.lesson] || 0) + 1; });
 console.log('  ' + Object.entries(counts).map(([k, v]) => `${k}:${v}`).join('  '));
 ok(Object.values(counts).every((n) => n >= 5 && n <= 8), '每課 5–8 個');
+const labelOf = (no) => svc.lessonInfo(ja, null, ja.filter((it) => it.lesson === no).map((it) => it.id)).label;
+eq([1, 3, 10, 13, 16, 21].map(labelOf), ['あ行', 'さ行', 'わ行・ん', 'だ行', 'きゃ行・ぎゃ行', 'りゃ行'], '課程名稱');
 
 // ---------- 9. 凌晨 4 點前算前一天 ----------
 section('9. 一天的分界（凌晨 4 點）');

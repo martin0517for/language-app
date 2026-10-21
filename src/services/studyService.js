@@ -1,7 +1,7 @@
 // 學習流程：今日摘要、開始／續學、評分
 // 串接內容、進度與排程，供今日頁與學習畫面使用。
 
-import { todayKey } from '../core/date.js';
+import { todayKey, addDays } from '../core/date.js';
 import { loadContent } from '../data/repositories/contentRepo.js';
 import {
   getProgress, saveCardState, getStats, addStat,
@@ -52,7 +52,27 @@ export async function getTodaySummary(lang) {
     status = studied ? 'done' : 'idle';
   }
 
-  return { lang, status, review, fresh, done, total, allLearned: plan.allLearned };
+  const progress = getProgress();
+  const learned = items.filter((it) => progress[it.id]).length;
+  const lesson = lang === 'ja' ? lessonInfo(items, session, plan.fresh) : null;
+
+  return {
+    lang, status, review, fresh, done, total,
+    learned, count: items.length, lesson, allLearned: plan.allLearned,
+  };
+}
+
+/** 日文今天這一課：{ no, label }，例：{ no: 3, label: 'さ行' } */
+export function lessonInfo(items, session, fresh) {
+  const ids = session ? session.queue.filter((q) => q.kind === 'new').map((q) => q.id) : fresh;
+  const lessonItems = items.filter((it) => ids.includes(it.id));
+  if (!lessonItems.length) return null;
+  // 每一行用第一個假名命名：さ行、きゃ行；ん 單獨顯示
+  const rows = new Map();
+  lessonItems.forEach((it) => {
+    if (it.type === 'kana' && !rows.has(it.row)) rows.set(it.row, it.row === 'n' ? 'ん' : `${it.kana}行`);
+  });
+  return { no: lessonItems[0].lesson, label: [...rows.values()].join('・') || '會話' };
 }
 
 export function getStreak() {
@@ -94,6 +114,7 @@ export async function currentCard(lang) {
   }
   const state = getProgress()[entry.id] || newCardState();
   const labels = Object.fromEntries(RATINGS.map((r) => [r, dueLabel(state, r, today)]));
+  if (entry.kind === 'repeat') labels.again = '明天';
   return { item, kind: entry.kind, labels, pos: session.pos, total: session.queue.length };
 }
 
@@ -105,7 +126,10 @@ export function rateCurrent(lang, rating) {
 
   const entry = session.queue[session.pos];
   const state = getProgress()[entry.id] || newCardState();
-  saveCardState(entry.id, nextState(state, rating, today));
+  const next = nextState(state, rating, today);
+  // 重複出現時又按「沒印象」：改為明天，今天的任務直接算完成
+  if (entry.kind === 'repeat' && rating === 'again') next.due = addDays(today, 1);
+  saveCardState(entry.id, next);
 
   // 「沒印象」的卡片在本次最後再出現一次（重複出現的那次不再追加）
   if (entry.kind !== 'repeat') {
